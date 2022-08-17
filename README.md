@@ -1,9 +1,7 @@
 
 <h1 align="center"> ⚡️ TridipFolio ⚡️</h1>
 
-<h2 align="center">
-  <img src="assets/devfolio.gif" alt="Devfolio" width="1905px" />
-</h2>
+
 
 ## Features
 
