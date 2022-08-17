@@ -1,8 +1,6 @@
-# myPortFolio
-Here is my Portfolio , ehere you can see my workes and details
-<h1 align="center"> ⚡️ DevFolio ⚡️</h1>
 
-[![Github](https://img.shields.io/github/license/anilseervi/DevFolio?color=%2312c2e9&logo=github&style=for-the-badge)](https://github.com/AnilSeervi/DevFolio/blob/master/README.md) ![Github Stars](https://img.shields.io/github/stars/anilseervi/DevFolio?color=%23c471ed&style=for-the-badge) ![Github forks](https://img.shields.io/github/forks/anilseervi/DevFolio?color=%23f64f59&style=for-the-badge) ![GitHub deployments](https://img.shields.io/github/deployments/anilseervi/DevFolio/github-pages?label=Deploy&logo=github&style=for-the-badge)
+<h1 align="center"> ⚡️ TridipFolio ⚡️</h1>
+
 
 ## A Modern Portfolio Template for Developers!
 
@@ -20,55 +18,15 @@ Here is my Portfolio , ehere you can see my workes and details
 ⚡️ Valid HTML5 & CSS3\
 ⚡ Fast and SEO Optimized
 
-To view a demo example, **[Click Here](https://devfolio.js.org)**\
-To view a live example, **[Click Here](https://anilseervi.github.io/Portfolio/)**\
-To view live example repo, **[Click Here](https://github.com/AnilSeervi/Portfolio/)**
+To view a demo example, **[Click Here](https://tridip-rong-portfolio.netlify.app/)**\
+To view a live example, **[Click Here](https://github.com/TridipRong/myPortFolio)**\
+
 
 ## Getting Started 🚀
 
 Here's a **Complete Guide** to walk you through the process of setting your own Portfolio Website with this minimal template on your local machine as well as hosting it on GitHub.
 
-### Prerequisites 📋
 
-You'll need [VSCode](https://code.visualstudio.com/) and [Git](https://git-scm.com/) installed on your computer.
-
-You'll also need these two extensions [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) and [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) installed in your VSCode.
-
-Press <kbd>F1</kbd> and Search for _Open Settings(JSON)_ and paste the below code before the closing braces( `}` ).
-
-```json
-"liveSassCompile.settings.generateMap": false,
-"liveSassCompile.settings.formats": [
-    {
-      "format": "compressed",
-      "savePath": "/css",
-      "extensionName": ".css"
-    }
-  ],
-"liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
-
-```
-
----
-
-## How To Use 🔧
-
-In VSCode, Open the terminal(<kbd>Ctrl</kbd>+<kbd>\\</kbd> ) and clone the DevFolio Repo.
-
-```bash
-# Clone this repository
-$ git clone https://github.com/AnilSeervi/DevFolio.git
-
-# Go into the repository
-$ cd DevFolio
-
-# Remove current origin repository
-$ git remote remove origin
-```
-
-And delete the [`.github`](./.github) folder as you don't need it.
-
-Now Simply click on **Watch Sass** and **Go Live** in the Status Bar.
 
 <h3 align="center">
 OR
@@ -76,43 +34,13 @@ OR
 
 Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> or <kbd>F1</kbd> to Show Command Palette, Search for **Watch Sass** and turn it on. Also search for **Open With Live Server** and turn it on. Doing this will watch all your Sass files for changes and will open the website in your browser to preview live.
 
----
-
-## Template Instructions
-
-### Step 1 - STRUCTURE
-
-Open [`index.html`](./index.html) and fill your information, there are 6 sections:
-
-### Head Section
-
-- Add a title to your Portfolio website within the `<title>` tag.
-- Add some keywords and description to your Portfolio website as directed in the [`index.html`](./index.html) file.
-
-```html
-<!-- Title: add your Portfolio websites's title here -->
-<title>[Your name here] | Developer</title>
-<!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-<meta name="keywords" content="[username], [name], skill" />
-<!-- Improve your SEO by adding a small descrption of you -->
-<meta name="description" content="[Your name here] | Developer" />
-```
-
-- Remove google analytics tag before pushing it to GitHub.
-
-### Hero Section
-
-- On `.hero-title`, put your custom title.
-- On `.hero-cta`, put your custom button cta.
-
-```html
 <!-- Hero Section -->
 <div id="hero">
   <section class="container">
     <h1 class="hero-title">
-      Hi, my name is <span class="text-color-main name">Your Name</span>
+      Hi, my name is <span class="text-color-main name">Tridip Rong</span>
       <br />
-      I'm the Unknown Developer.
+      I'm a Back-End Developer.
     </h1>
     <p class="hero-cta">
       <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
@@ -181,7 +109,7 @@ Open [`index.html`](./index.html) and fill your information, there are 6 section
         <!-- Each .row is a project -->
           <div class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title">Fap-Bag Clone</h3>
               <p class="project-wrapper__text-info">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </p>
@@ -202,7 +130,7 @@ Open [`index.html`](./index.html) and fill your information, there are 6 section
               <a href="#" target="_blank">
                 <div class="thumbnail rounded">
                   <img
-                    src="./assets/project.png"
+                    src="./assets/WhatsApp Image 2022-08-17 at 11.26.03 AM.jpeg"
                     class="img-fluid"
                     alt="Project Image"
                   />
@@ -245,19 +173,17 @@ Open [`index.html`](./index.html) and fill your information, there are 6 section
 <footer class="footer">
   ...
   <div class="social-links">
-    <a href="#!" target="_blank">
+    <a href="https://twitter.com/rong_tridip" target="_blank">
       <i class="fa fa-twitter"></i>
     </a>
-    <a href="#!" target="_blank">
+    <a href="https://www.instagram.com/tridiprong/?hl=en" target="_blank">
       <i class="fa fa-instagram"></i>
     </a>
-    <a href="#!" target="_blank">
-      <i class="fa fa-codepen"></i>
-    </a>
-    <a href="#!" target="_blank">
+    
+    <a href="https://www.linkedin.com/in/tridip-rong-4b11481b2/" target="_blank">
       <i class="fa fa-linkedin"></i>
     </a>
-    <a href="#!" target="_blank">
+    <a href="https://github.com/TridipRong" target="_blank">
       <i class="fa fa-github"></i>
     </a>
   </div>
