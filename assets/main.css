@@ -98,3 +98,14 @@ a img {
     color: rgb(226, 225, 225)
 }
 
+#Navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 40%;
+    margin-left: 10px;
+}
+#sk{
+    text-align: center;
+    
+}
