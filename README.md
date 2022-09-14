@@ -15,8 +15,8 @@
 
 Click to :point_down: :point_down::point_down: Visit
 
-[<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="25" />](https://tridip-rong-portfolio.netlify.app/)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Express.js logo" title="Express.js" height="25"/>](https://github.com/TridipRong/myPortFolio)
+[<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="25" />](https://github.com/TridipRong/myPortFolio)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Express.js logo" title="Express.js" height="25"/>](https://tridip-rong-portfolio.netlify.app/)
 
 
 
