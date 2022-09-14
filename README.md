@@ -21,17 +21,10 @@ Click to :point_down: :point_down::point_down: Visit
 
 
 
-## Technologies used 🛠️
 
-- [Sass](https://sass-lang.com/documentation) - CSS extension language
-- [ScrollReveal.js](https://scrollrevealjs.org/) - JavaScript library
-- [Tilt.js](https://gijsroge.github.io/tilt.js/) - JavaScript tiny parallax library
 
 ## Authors
 
 - **Tridip Rong** - [TridipRong](https://github.com/TridipRong)
 
-## License 📄
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
