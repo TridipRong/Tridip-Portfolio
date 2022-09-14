@@ -1,15 +1,16 @@
 #about {
-  background-color: $primary-color;
-  background-image: linear-gradient(
-    30deg,
-    $primary-color 200%,
-    $secondary-color 100%
-  );
-  color: $white-color;
-  height: 100%;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-  padding-bottom: 10%;
+  
+    background-color: $primary-color;
+    background-image: linear-gradient(
+      30deg,
+      $primary-color 200%,
+      $secondary-color 100%
+    );
+    color: $white-color;
+    height: 100%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    padding-bottom: 10%;
   @include respond(tab-land) {
     height: 100%;
     -webkit-clip-path: none;
@@ -28,9 +29,11 @@
       height: 100%;
       align-items: center;
       justify-content: center;
+     
       img {
         max-width: 350px;
         width: 100%;
+    
       }
 
       @include respond(tab-land) {

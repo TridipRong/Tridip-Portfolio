@@ -9,8 +9,7 @@ figcaption,
 figure,
 footer,
 header,
-nav,
-section {
+nav{
     display: block
 }
 
@@ -53,31 +52,105 @@ a img {
     border: 0
 }
 
-.tech {
-    margin: 10px
+#Navbar{
+    
+    background-color: rgb(0, 102, 255);
+}
+#compo{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 15px;
+    width: 40%; 
+    
+}
+#compo>h3>a{
+    color: aliceblue;
+}
+#compo>h3>a:hover{
+    color: rgb(21, 255, 0);
+}
+@media only screen and (max-width:950px) {
+    #compo{
+      
+        width: 70%; 
+    }
+}
+@media only screen and (max-width:550px) {
+    #compo{
+        
+        width: 90%; 
+    }
+}
+
+#hero{
+    background-color: #030001;
+}
+.hero-title{
+    color: aliceblue;
+}
+.scroll-down{
+    background-color: aliceblue;
+   
+}
+
+#skill{
+    background-color: #dce4ec;
+  height: 920px;
+
+}
+#sk{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+
+    
+}
+#sc{
+    margin-top: 30px;
+}
+
+.tech{
+width: 40%;
+margin: auto;
+/* border: 1px solid rgb(233, 13, 13); */
+text-align: center;
+
 }
 
 .user {
-    width: 90%;
-    margin-left: 10px;
-    
+    margin: auto;
+   width: 80%;
     text-align: center;
     font-size: 60px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    
 }
+  
 
-.user p {
-    font-size: 16px
-}
 
-@media only screen and (min-width:550px) {
+
+@media only screen and (max-width:550px) {
     .user {
+        display: block;
         flex-wrap: nowrap;
-        font-size: 75px
+        font-size: 75px;
+        
     }
+    .tech{
+        width: 80%;
+       
+        
+        }
+    #skill{
+        
+      height: auto;
+    
+    }
+    
 }
 
 .user-details {
@@ -93,19 +166,7 @@ a img {
     background: linear-gradient(to right, #627d85, #635316);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px 0;
-    margin-top: 100px;
+    
     text-align: center;
     color: rgb(226, 225, 225)
-}
-
-#Navbar{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    width: 40%;
-    margin-left: 10px;
-}
-#sk{
-    text-align: center;
-    
 }

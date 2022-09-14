@@ -26,7 +26,7 @@ Have fun creating your portfolio on this template!!! -->
   <meta name="description" content="[Tridip Rong] | Developer" />
 
   <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
-  <link rel="icon" type="image/png" href="./assets/favicon.ico" />
+  <link rel="icon" type="image/png" href="./assets/IMG20220908095113-removebg-preview.png" />
 
   <!-- Add your primary-theme color for the value of content -->
   <meta name="theme-color" content="#36d1dc" />
@@ -59,11 +59,13 @@ Have fun creating your portfolio on this template!!! -->
 
 <body>
   <div id="Navbar">
-    <h3> <a href="#hero">Home</a> </h3>
-    <h3><a href="#about">About</a></h3>
-    <h3><a href="#skill">Skills</a></h3>
-    <h3><a href="#projects">Projects</a></h3>
-    <h3><a href="#contact">Contact</a></h3>
+    <div id="compo">
+      <h3> <a href="#hero">Home</a> </h3>
+      <h3><a href="#about">About</a></h3>
+      <h3><a href="#skill">Skills</a></h3>
+      <h3><a href="#projects">Projects</a></h3>
+      <h3><a href="#contact">Contact</a></h3>
+    </div>
   </div>
   <!-- Hero Section -->
   <div id="hero">
@@ -77,9 +79,11 @@ Have fun creating your portfolio on this template!!! -->
         <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
       </p>
     </section>
-    <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+
+    <!-- <a href="#about" class="scroll-down-link" aria-label="scroll-down">
       <div class="scroll-down"></div>
-    </a>
+    </a> -->
+  </div>
   </div>
   <!-- /END Hero Section -->
 
@@ -89,7 +93,8 @@ Have fun creating your portfolio on this template!!! -->
       <h2 class="section-title">About Me</h2>
       <div class="row about-wrapper">
         <div class="about-wrapper__image">
-          <img class="img-fluid" src="/assets/IMG_20210403_172348.jpg" alt="Profile Image" />
+          <img class="img-fluid" style="border: 1px solid red;"
+            src="/assets/IMG20220908095113_1_-removebg-preview (1).png" alt="Profile Image" />
         </div>
         <div class="about-wrapper__info">
           <p class="about-wrapper__info-text">
@@ -106,79 +111,84 @@ Have fun creating your portfolio on this template!!! -->
             full-stack course with handone project experience also i learn some good ammount of dsa here.
           </p>
           <span class="about-wrapper__cta">
-            <a href="https://drive.google.com/file/d/14Q4gd0cQtwvgR4wqd2rGxxaIUb8cR_D4/view"
+            <a href="https://drive.google.com/file/d/1_sFe6XEFqtz9eqrwZFJZh2GCzgiSXtRU/view?usp=sharing" target="_blank"
               class="cta-btn cta-btn--resume">View Resume</a>
           </span>
         </div>
       </div>
     </div>
 
-    <section id="skill">
-      <h2 id="sk">Top Skills</h2>
-      <div class="user">
 
-        <!-- Technology Stack #1: Languages -->
-
-        <div class="tech">
-          <h2>Languages</h2>
-          <div class="logo">
-            <i class="devicon-c-plain-wordmark colored"></i>
-            <i class="fa-brands fa-node-js"></i>
-            <i class="devicon-java-plain-wordmark colored"></i>
-          </div>
-
-          <p>My favorite languages for systems programming, software engineering.</p>
-        </div>
-
-        <!-- Technology Stack #2: Front-End -->
-        <div class="tech">
-          <h2>Front-End</h2>
-          <div class="logo">
-            <i class="devicon-bootstrap-plain-wordmark colored"></i>
-
-            <i class="devicon-html5-plain-wordmark colored"></i>
-            <i class="devicon-css3-plain-wordmark colored"></i>
-
-          </div>
-          <p>My preferred technologies for front-end web development and component design.</p>
-        </div>
-
-        <!-- Technology Stack #3: Back-End -->
-        <div class="tech">
-          <h2>Back-End</h2>
-
-          <div class="logo">
-            <i class="devicon-mysql-plain-wordmark"></i>
-            <i class="devicon-postgresql-plain-wordmark colored"></i>
-            <i class="devicon-spring-plain-wordmark colored"></i>
-          </div>
-
-          <p>My preferred technologies for back-end web programming and database architecture.</p>
-        </div>
-
-        <!-- Technology Stack #4: Tools -->
-        <div class="tech">
-          <h2>Tools</h2>
-
-          <div class="logo">
-            <i class="devicon-visualstudio-plain-wordmark colored"></i>
-
-            <i class="devicon-git-plain-wordmark colored"></i>
-
-            <i class="devicon-github-original-wordmark"></i>
-          </div>
-
-
-          <p>My favorite tools for version control, code editing, and container orchestration.</p>
-        </div>
-      </div>
-
-    </section>
   </section>
   <!-- /END About Section -->
 
   <!-- Skill Section -->
+  <section id="skill">
+    <h2 id="sk">Top Skills</h2>
 
+    <div class="user">
+
+      <!-- Technology Stack #1: Languages -->
+
+      <div class="tech">
+        <h2>Languages</h2>
+        <div class="logo">
+          <i class="devicon-c-plain-wordmark colored"></i>
+          <i class="fa-brands fa-node-js"></i>
+          <i class="devicon-java-plain-wordmark colored"></i>
+        </div>
+
+        <p>My favorite languages for systems programming, software engineering.</p>
+      </div>
+
+      <!-- Technology Stack #2: Front-End -->
+      <div class="tech">
+        <h2>Front-End</h2>
+        <div class="logo">
+          <i class="devicon-bootstrap-plain-wordmark colored"></i>
+
+          <i class="devicon-html5-plain-wordmark colored"></i>
+          <i class="devicon-css3-plain-wordmark colored"></i>
+
+        </div>
+        <p>My preferred technologies for front-end web development and component design.</p>
+      </div>
+
+
+    </div>
+    <div class="user">
+      <!-- Technology Stack #3: Back-End -->
+      <div class="tech">
+        <h2>Back-End</h2>
+
+        <div class="logo">
+          <i class="devicon-mysql-plain-wordmark"></i>
+          <i class="devicon-postgresql-plain-wordmark colored"></i>
+          <i class="devicon-spring-plain-wordmark colored"></i>
+        </div>
+
+        <p>My preferred technologies for back-end web programming and database architecture.</p>
+      </div>
+
+      <!-- Technology Stack #4: Tools -->
+      <div class="tech">
+        <h2>Tools</h2>
+
+        <div class="logo">
+          <i class="devicon-visualstudio-plain-wordmark colored"></i>
+
+          <i class="devicon-git-plain-wordmark colored"></i>
+
+          <i class="devicon-github-original-wordmark"></i>
+        </div>
+
+
+        <p>My favorite tools for version control, code editing, and container orchestration.</p>
+      </div>
+    </div>
+
+
+  </section>
 
   <!-- /End of Skill Section -->
 
@@ -265,7 +275,7 @@ Have fun creating your portfolio on this template!!! -->
         <p class="contact-wrapper__text"><i class="fa-solid fa-envelope-circle-check"></i> Email: rtridip2@gmail.com</p>
         <p class="contact-wrapper__text"><i class="fa-brands fa-linkedin-in"></i> Linkedin: Tridip Rong</p>
         <p class="contact-wrapper__text"> <i class="fa-brands fa-github"></i> GitHub: TridipRong</p>
-        <a href="https://drive.google.com/file/d/14Q4gd0cQtwvgR4wqd2rGxxaIUb8cR_D4/view"
+        <a href="https://drive.google.com/file/d/1_sFe6XEFqtz9eqrwZFJZh2GCzgiSXtRU/view?usp=sharing" target="_blank"
           class="cta-btn cta-btn--resume">Call to Action</a>
       </div>
     </div>
