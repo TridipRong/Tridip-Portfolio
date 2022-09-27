@@ -53,10 +53,11 @@ a img {
 }
 
 #Navbar{
-    
+    position:fixed;
     background-color: rgb(0, 102, 255);
 }
 #compo{
+    /* position:fixed; */
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
