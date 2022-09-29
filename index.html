@@ -1,13 +1,3 @@
-<!-- HELLO
--
-DevFolio is a minimal, clean, lightweight and fully responsive template for Devlopers!
-Created by Anil Seervi.
--
-GitHub repo: https://github.com/AnilSeervi/DevFolio
-README: https://github.com/AnilSeervi/DevFolio/blob/master/README.md
--
-Have fun creating your portfolio on this template!!! -->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,276 +5,221 @@ Have fun creating your portfolio on this template!!! -->
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- Title: add your Portfolio websites's title here -->
-  <title>Tridip Rong| Back-End Developer</title>
-
-  <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-  <meta name="description" content="Portfolio website" />
-
-  <!-- Improve your SEO by adding a small descrption of you -->
-  <meta name="description" content="[Tridip Rong] | Developer" />
-
-  <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
-  <link rel="icon" type="image/png" href="./assets/IMG20220908095113-removebg-preview.png" />
-
-  <!-- Add your primary-theme color for the value of content -->
-  <meta name="theme-color" content="#36d1dc" />
-
-
-  <!-- link tags -->
-  <link rel="stylesheet" href="./css/main.css" />
-  <link rel="stylesheet" href="./assets/main.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <script src="./javascript/scrollreveal.min.js"></script>
-  <script defer type="text/javascript" src="./javascript/scrollveal.js"></script>
-
-  <!-- Remove Google Analytics once you have your portfolio website set-up -->
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script src="https://kit.fontawesome.com/f2c1b034f7.js" crossorigin="anonymous"></script>
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "UA-122228201-4");
-  </script>
-  <!-- End of Google Analytics -->
+  <title>Tridip Rong - Portfolio</title>
+  <link rel="icon" type="image/png" href="./images/site.png" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- GOOLGE FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" />
 </head>
 
 <body>
-  <div id="Navbar">
-    <div id="compo">
-      <h3> <a href="#hero">Home</a> </h3>
-      <h3><a href="#about">About</a></h3>
-      <h3><a href="#skill">Skills</a></h3>
-      <h3><a href="#projects">Projects</a></h3>
-      <h3><a href="#contact">Contact</a></h3>
+  <div id="navbar">
+    <div>
+      <h3 class="logo">
+        < Tridip />
+      </h3>
+    </div>
+    <div class="nav-toggle"><i class="fa-solid fa-bars"></i></div>
+    <div class="nav-links nav-linksGo">
+      <a href="#farooque" target="_self">
+        <h3>Home</h3>
+      </a>
+      <a href="#about" target="_self">
+        <h3>About</h3>
+      </a>
+      <a href="#skills" target="_self">
+        <h3>Skills</h3>
+      </a>
+      <a href="#projects" target="_self">
+        <h3>Projects</h3>
+      </a>
+      <a href="#contact" target="_self">
+        <h3>Contact</h3>
+      </a>
+      <button id="lightbtn"><i class="fa-solid fa-moon"></i></button>
     </div>
   </div>
-  <!-- Hero Section -->
-  <div id="hero">
-    <section class="container">
-      <h1 class="hero-title">
-        Hi, my name is <span class="text-color-main name">Tridip Rong</span>
-        <br />
-        I'm a Back-End Developer.
-      </h1>
-      <p class="hero-cta">
-        <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+  <div id="farooque">
+    <div class="content">
+      <h1 class="display-1">Tridip Rong</h1>
+      <p class="typist">
+        Passionate about changing the world with technology.
       </p>
-    </section>
-
-    <!-- <a href="#about" class="scroll-down-link" aria-label="scroll-down">
-      <div class="scroll-down"></div>
-    </a> -->
+      <div class="all-links">
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/TridipRong" aria-label="My github"><i
+            class="fab fa-github fa-3x"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/tridip-rong-4b11481b2/"
+          aria-label="My linkedin"><i class="fab fa-linkedin fa-3x"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="rtridip2@gmail.com" aria-label="My Mail"><i
+            class="fa-solid fa-envelope fa-3x"></i></a>
+      </div>
+      <a class="resume-link" target="_blank" href="./images/Tridip_Rong_Resume_.pdf" download>
+        <div class="resume">
+          <h3>Resume</h3>
+        </div>
+      </a>
+    </div>
   </div>
+  <div id="about">
+    <h2 class="about-me-txt">About Me</h2>
+    <div class="about-box">
+      <img src="./images/Tridip.png" alt="tridip'sImage" />
+      <div>
+        <h2><span class="hi"> I'm </span> Tridip Rong...</h2>
+        <p>
+          A Passion-driven learner and a web developer with the ability to write
+          clean, reusable, optimised code. Skilled and experienced at building
+          and maintaining web applications. Looking forward to joining a
+          progressive and challenging work environment.
+          I am from Howrah,WestBengal. I had completed B.Tech in Computer
+          Science &
+          Engineering during 2022, from St. Mry's Technical Campus Kolkata, under MAKAUT university.
+        <div class="information">
+          <div><i class="fa-solid fa-location-dot"></i> West Bengal</div>
+          <div><i class="fa-solid fa-phone"></i>9083392794</div>
+          <div>
+            <i class="fa-solid fa-envelope"></i> rtridip2@gmail.com
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <!-- /END Hero Section -->
-
-  <!-- About Section -->
-  <section id="about">
-    <div class="container">
-      <h2 class="section-title">About Me</h2>
-      <div class="row about-wrapper">
-        <div class="about-wrapper__image">
-          <img class="img-fluid" style="border: 1px solid red;"
-            src="/assets/IMG20220908095113_1_-removebg-preview (1).png" alt="Profile Image" />
+  <!-- skills -->
+  <div id="skills">
+    <div>
+      <h1>Skills</h1>
+    </div>
+    <div>
+      <div class="front-end">
+        <h2>Front-end Skills</h2>
+        <div>
+          <div><i class="fa-brands fa-html5"></i>HTML 5</div>
         </div>
-        <div class="about-wrapper__info">
-          <p class="about-wrapper__info-text">
-            I am Tridip Rong a passionate Back-end Developer from Howrah,WestBengal. I had completed B.Tech in Computer
-            Science &
-            Engineering during 2022, from St. Mry's Technical Campus Kolkata, under MAKAUT university.
-            I learn c programming in collage after that i started coding. Which gives me interest in WebDevelopment. So
-            i learn HTML,CSS javascript for that.
-            Also i learn BootStrap for ui/ux and java for Back-End , Curremtly i am learning MYSQL leter i will learn
-            springBoot and aws as well.
-          </p>
-          <p class="about-wrapper__info-text">
-            So, Besically i am doing a full-stack WebDevelopment course from masai school which provides me a 30 week
-            full-stack course with handone project experience also i learn some good ammount of dsa here.
-          </p>
-          <span class="about-wrapper__cta">
-            <a href="https://drive.google.com/file/d/10lxA17GoED_pAOCwvu6YxyUdUDzWch27/view?usp=sharing" target="_blank"
-              class="cta-btn cta-btn--resume">View Resume</a>
-          </span>
+        <div>
+          <div><i class="fa-brands fa-css3"></i>CSS 3</div>
+        </div>
+        <div>
+          <div><i class="fa-brands fa-square-js"></i>JAVASCRIPT</div>
         </div>
       </div>
+      <div class="back-end">
+        <h2>Back-end Skills</h2>
+        <div>
+          <div><i class="fa-brands fa-java"></i>JAVA</div>
+        </div>
+        <div>
+          <div><i class="fa-solid fa-database"></i>MySQL</div>
+        </div>
+        <div>
+          <div><i class="fa-brands fa-aws"></i>AWS</div>
+        </div>
+
+      </div>
+
     </div>
 
-
-  </section>
-  <!-- /END About Section -->
-
-  <!-- Skill Section -->
-  <section id="skill">
-    <h2 id="sk">Top Skills</h2>
-
-    <div class="user">
-
-      <!-- Technology Stack #1: Languages -->
-
-      <div class="tech">
-        <h2>Languages</h2>
-        <div class="logo">
-          <i class="devicon-c-plain-wordmark colored"></i>
-          <i class="fa-brands fa-node-js"></i>
-          <i class="devicon-java-plain-wordmark colored"></i>
-        </div>
-
-        <p>My favorite languages for systems programming, software engineering.</p>
-      </div>
-
-      <!-- Technology Stack #2: Front-End -->
-      <div class="tech">
-        <h2>Front-End</h2>
-        <div class="logo">
-          <i class="devicon-bootstrap-plain-wordmark colored"></i>
-
-          <i class="devicon-html5-plain-wordmark colored"></i>
-          <i class="devicon-css3-plain-wordmark colored"></i>
-
-        </div>
-        <p>My preferred technologies for front-end web development and component design.</p>
-      </div>
-
-
+  </div>
+  <!-- Prepare a container for your calendar. -->
+  <div id="cale">
+    <div class="calendar">
+      <!-- Loading stuff -->
+      Loading the data just for you.
     </div>
-    <div class="user">
-      <!-- Technology Stack #3: Back-End -->
-      <div class="tech">
-        <h2>Back-End</h2>
-
-        <div class="logo">
-          <i class="devicon-mysql-plain-wordmark"></i>
-          <i class="devicon-postgresql-plain-wordmark colored"></i>
-          <i class="devicon-spring-plain-wordmark colored"></i>
-        </div>
-
-        <p>My preferred technologies for back-end web programming and database architecture.</p>
-      </div>
-
-      <!-- Technology Stack #4: Tools -->
-      <div class="tech">
-        <h2>Tools</h2>
-
-        <div class="logo">
-          <i class="devicon-visualstudio-plain-wordmark colored"></i>
-
-          <i class="devicon-git-plain-wordmark colored"></i>
-
-
-          <i class="devicon-github-original-wordmark"></i>
-        </div>
-
-
-        <p>My favorite tools for version control, code editing, and container orchestration.</p>
-      </div>
+  </div>
+  <!-- projects -->
+  <div id="projects">
+    <div class="pro_1_div">
+      <h2>Projects</h2>
     </div>
-
-
-  </section>
-
-  <!-- /End of Skill Section -->
-
-  <!--Projects Section-->
-  <section id="projects">
-    <div class="container">
-      <div class="project-wrapper">
-        <h2 class="section-title dark-blue-text">Projects</h2>
-
-        <!-- Each .row is a project -->
-        <article class="row">
-          <div class="project-wrapper__text">
-            <h3 class="project-wrapper__text-title">Fab-Bag Clone WebSite</h3>
-            <p class="project-wrapper__text-info">
+    <div class="pro_2_div">
+      <div class="project1">
+        <img class="project-img overlay" src="./images/Fabbag.jpeg" alt="" />
+        <div class="project-about">
+          <div class="project-title">
+            <h3>FabBag Clone WebSite</h3>
+          </div>
+          <div class="project-desc">
+            <p>
               This is a collaborative Project which is developed by me and my team.I developed and designed the
               login-signup page using HTML,CSS and JS hosted on Github Pages, to showcase my skill and knowladge in
               WebDevelopment.
             </p>
-            <div class="project-wrapper__text-btns">
-              <a href="https://fabbag-clone-u2.netlify.app/" target="_blank" rel="noopener noreferrer"
-                class="cta-btn cta-btn--hero cta-btn--projects">See
-                Live</a>
-              <a href="https://github.com/itsApurba/fabbag-clone" target="_blank" class="cta-btn text-color-main">Source
-                Code</a>
-            </div>
           </div>
-
-          <div class="project-wrapper__image">
-            <a href="https://fabbag-clone-u2.netlify.app/" target="_blank" rel="noopener noreferrer">
-              <div class="thumbnail rounded">
-                <img src="./assets/WhatsApp Image 2022-08-17 at 11.26.03 AM.jpeg" class="img-fluid"
-                  alt="Project Image" />
-              </div>
+          <div class="project-techstack">
+            <h4>Tech Stack : HTML | CSS | JavaScript</h4>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/itsApurba/fabbag-clone" target="_blank">
+              <div><i class="fa-brands fa-github"></i> Code</div>
+            </a>
+            <a href="https://fabbag-clone-u2.netlify.app/" target="_blank">
+              <div><i class="fa-solid fa-eye"></i> Live</div>
             </a>
           </div>
-        </article>
-        <!-- /END Project -->
-
-        <!-- Each .row is a project -->
-        <article class="row">
-          <div class="project-wrapper__text">
-            <h3 class="project-wrapper__text-title">Bang-Good Clone WebSite</h3>
-            <p class="project-wrapper__text-info">
+        </div>
+      </div>
+      <div class="project-2">
+        <img class="project-img overlay" src="./images/BangGood.jpeg" alt="" />
+        <div class="project-about">
+          <div class="project-title">
+            <h3>Bang-Good Clone WebSite</h3>
+          </div>
+          <div class="project-desc">
+            <p>
               This is a collaborative Project which is developed by me and my team.I developed and designed the
-              cart,checkout and paymet page using HTML,CSS and AdvanceJS hosted on Github Pages, to showcase my skill
+              cart,checkout and paymet page hosted on Github Pages, to showcase my skill
               and knowladge in
               WebDevelopment.
-
-
             </p>
-            <div class="project-wrapper__text-btns">
-              <a href="https://fancy-starburst-42d040.netlify.app/" target="_blank" rel="noopener noreferrer"
-                class="cta-btn cta-btn--hero cta-btn--projects">See
-                Live</a>
-              <a href="https://github.com/ravipandeydu/banggood" target="_blank" class="cta-btn text-color-main">Source
-                Code</a>
-            </div>
+            <p></p>
           </div>
 
-          <div class="project-wrapper__image">
-            <a href="https://fancy-starburst-42d040.netlify.app/" target="_blank" rel="noopener noreferrer">
-              <div class="thumbnail rounded">
-                <img src="./assets/WhatsApp Image 2022-08-17 at 11.35.18 AM.jpeg" class="img-fluid"
-                  alt="Project Image" />
-              </div>
+          <div class="project-techstack">
+            <h4>Tech Stack : HTML | CSS | JavaScript</h4>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/ravipandeydu/banggood" target="_blank">
+              <div><i class="fa-brands fa-github"></i> Code</div>
+            </a>
+            <a href="https://fancy-starburst-42d040.netlify.app/" target="_blank">
+              <div><i class="fa-solid fa-eye"></i> Live</div>
             </a>
           </div>
-        </article>
-        <!-- /END Project -->
+        </div>
       </div>
     </div>
-  </section>
-  <!-- End Projects Section -->
-
+  </div>
   <!-- Contact Section -->
-  <section id="contact">
-    <div class="container">
-      <h2 class="section-title">Contact</h2>
-      <div class="contact-wrapper">
 
-        <p class="contact-wrapper__text"> <i class="fa-solid fa-mobile-screen"></i> Mobile: +919083392794 /
-          +917908184053
-        </p>
-        <p class="contact-wrapper__text"><i class="fa-solid fa-envelope-circle-check"></i> Email: rtridip2@gmail.com</p>
-        <p class="contact-wrapper__text"><i class="fa-brands fa-linkedin-in"></i> Linkedin: Tridip Rong</p>
-        <p class="contact-wrapper__text"> <i class="fa-brands fa-github"></i> GitHub: TridipRong</p>
-        <a href="https://drive.google.com/file/d/10lxA17GoED_pAOCwvu6YxyUdUDzWch27/view?usp=sharing" target="_blank"
-          class="cta-btn cta-btn--resume">Call to Action</a>
-      </div>
+  <!-- <div id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-wrapper">
+
+      <p class="contact-wrapper__text"> <i class="fa-solid fa-mobile-screen"></i> Mobile: +919083392794 /
+        +917908184053
+      </p>
+      <p class="contact-wrapper__text"><i class="fa-solid fa-envelope-circle-check"></i> Email: rtridip2@gmail.com</p>
+      <p class="contact-wrapper__text"><i class="fa-brands fa-linkedin-in"></i> Linkedin: Tridip Rong</p>
+      <p class="contact-wrapper__text"> <i class="fa-brands fa-github"></i> GitHub: TridipRong</p>
+
     </div>
-  </section>
-  <!-- END Contact Section -->
+  </div> -->
+
+
+  <!-- footer -->
+  <div id="footer">
+    <h2>Get In Touch</h2>
+    <div class="links">
+      <a target="_blank" href="https://www.linkedin.com/in/tridip-rong-4b11481b2/"><i
+          class="fa-brands fa-linkedin"></i></a>
+      <a target="_blank" href="rtridip2@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      <a target="_blank" href="https://github.com/TridipRong"><i class="fa-brands fa-github"></i></a>
+    </div>
+    <p>Designed and build by <span class="name">Tridip Rong.</span></p>
+  </div>
 
   <!-- Footer Section -->
-  <footer class="footer">
+  <!-- <footer class="footer">
     <div class="container">
       <a href="#hero" class="back-to-top" aria-label="go back to top">
         <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
@@ -296,11 +231,11 @@ Have fun creating your portfolio on this template!!! -->
         <a href="https://www.instagram.com/tridiprong/?hl=en" target="_blank" rel="noopener noreferrer"
           aria-label="instagram">
           <i class="fa fa-instagram"></i>
-        </a>
-        <!-- <a href="#!" target="_blank" rel="noopener noreferrer" aria-label="codepen">
+        </a> -->
+  <!-- <a href="#!" target="_blank" rel="noopener noreferrer" aria-label="codepen">
           <i class="fa fa-codepen"></i>
         </a> -->
-        <a href="https://www.linkedin.com/in/tridip-rong-4b11481b2/" target="_blank" rel="noopener noreferrer"
+  <!-- <a href="https://www.linkedin.com/in/tridip-rong-4b11481b2/" target="_blank" rel="noopener noreferrer"
           aria-label="linkedin">
           <i class="fa fa-linkedin"></i>
         </a>
@@ -315,14 +250,23 @@ Have fun creating your portfolio on this template!!! -->
         with &smile;;
       </p>
     </div>
-  </footer>
+  </footer> -->
   <!-- END Footer Section -->
-
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
-  <script src="./javascript/vanilla-tilt.min.js"></script>
-  <script type="text/javascript" src="./javascript/valtilt.js"></script>
 </body>
 
 </html>
+<script src="https://kit.fontawesome.com/7e4208235c.js" crossorigin="anonymous"></script>
+<script src="report.js"></script>
+<!-- Include the library. -->
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
+
+
+<script>
+  GitHubCalendar(".calendar", "TridipRong");
+  // or enable responsive functionality
+  GitHubCalendar(".calendar", "TridipRong", { responsive: true });
+</script>
