@@ -320,8 +320,9 @@ body {
 }
 /* projects */
 #projects {
-  height: 180vh;
+  height: auto;
   background-color: rgb(214, 214, 214);
+  padding-bottom: 5%;
 }
 .pro_1_div {
   text-align: center;
@@ -329,6 +330,7 @@ body {
 }
 .pro_1_div > h2 {
   margin: 0;
+  padding-bottom: 5%;
   margin-top: 1%;
   color: #007266;
   font-size: 28px;
@@ -553,8 +555,10 @@ body {
     margin-top: 3%;
   }
   #projects {
-    height: auto;
-    background-color: rgb(214, 214, 214);
+    
+      height: auto;
+      background-color: rgb(214, 214, 214);
+    
   }
   .project-img {
     width: 95%;
@@ -575,6 +579,7 @@ body {
   }
   .pro_2_div {
     width: 100%;
+    padding-bottom: 5%;
   }
   .pro_2_div > div {
     height: auto;
@@ -611,6 +616,9 @@ body {
   .information {
     /* display: none; */
     font-size: 13px;
+  }
+  #cal{
+    margin-top: -5%;
   }
 }
 
@@ -729,6 +737,9 @@ body {
     display: block;
     padding: 0;
   }
+  #cal{
+    margin-top: -50px;
+  }
   #footer h2 {
     font-size: 2rem;
     padding-top: 10%;
@@ -781,7 +792,9 @@ body {
     font-size: 15px;
     margin-top: 20%;
   }
-
+  #cal{
+    margin-top: -5%;
+  }
   /* copied from above */
   #projects {
     height: auto;
@@ -814,13 +827,14 @@ body {
     text-align: center;
   }
   #cal{
-    padding-top: -10%;
+    margin-top: -5%;
   }
 }
 
 #cale{
   background-color: #0584aa;
   padding-bottom: 2%;
+  margin-top: -10%;
 }
 .calendar{
   width: 80%;
