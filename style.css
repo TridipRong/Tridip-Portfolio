@@ -784,7 +784,7 @@ body {
 
   /* copied from above */
   #projects {
-    height: 210vh;
+    height: auto;
     background-color: rgb(214, 214, 214);
   }
   .project-img {
