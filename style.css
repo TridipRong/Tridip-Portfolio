@@ -553,7 +553,7 @@ body {
     margin-top: 3%;
   }
   #projects {
-    height: 210vh;
+    height: auto;
     background-color: rgb(214, 214, 214);
   }
   .project-img {
@@ -752,7 +752,7 @@ body {
     align-items: center;
   }
   #projects {
-    height: 140vh;
+    height: auto;
     background-color: rgb(214, 214, 214);
   }
 
