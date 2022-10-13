@@ -750,6 +750,9 @@ footer span a:hover {
    margin-left: 8%;
     grid-template-columns: repeat(2, 1fr);
   }
+  .text{
+    margin-top: 2%;
+  }
 }
 
 @media (max-width: 690px) {
