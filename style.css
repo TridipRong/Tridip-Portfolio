@@ -676,12 +676,20 @@ footer span a:hover {
     height: 350px;
     width: 350px;
   }
+  .skills .skills-content .column {
+    margin-left: 8%;
+     grid-template-columns: repeat(4, 1fr);
+   }
 }
 
 @media (max-width: 991px) {
   .max-width {
     padding: 0 50px;
   }
+  .skills .skills-content .column {
+    margin-left: 8%;
+     grid-template-columns: repeat(3, 1fr);
+   }
 }
 @media (max-width: 947px) {
   .menu-btn {
@@ -774,6 +782,9 @@ footer span a:hover {
   .services .serv-content .card {
     width: 100%;
   }
+  .contact .title::after {
+    margin-top: 2%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -804,6 +815,9 @@ footer span a:hover {
     width: 35px;
     font-size: 23px;
     line-height: 38px;
+  }
+  .contact .title::after {
+    margin-top: 2%;
   }
 }
 
