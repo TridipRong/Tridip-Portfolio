@@ -325,7 +325,7 @@ section .title::after {
 /* skills section styling */
 
 .skills-images img {
-  height:40%;
+  height:30px;
   
 background-color:  rgb(232, 236, 232);
   width: calc(80% - 10px);
@@ -344,7 +344,8 @@ background-color:  rgb(232, 236, 232);
 
 /* skills right column */
 .skills{
-  background: rgb(185, 106, 221);;
+  background: rgb(185, 106, 221);
+  height: auto;
 }
 .skills .skills-content .column {
   width:100%;
@@ -542,11 +543,11 @@ height: 50%;
   background: #111;
   color: #fff;
 }
-.contact .title::after {
+/* .contact .title::after {
   content: "---get in touch---";
   background: #111;
   color: #fff;
-}
+} */
 .contact .contact-content .column {
   width: calc(50% - 30px);
 }
@@ -676,10 +677,10 @@ footer span a:hover {
     height: 350px;
     width: 350px;
   }
-  .skills .skills-content .column {
+  /* .skills .skills-content .column {
     margin-left: 8%;
      grid-template-columns: repeat(4, 1fr);
-   }
+   } */
 }
 
 @media (max-width: 991px) {
@@ -756,7 +757,7 @@ footer span a:hover {
   }
   .skills .skills-content .column {
    margin-left: 8%;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   .text{
     margin-top: 2%;
