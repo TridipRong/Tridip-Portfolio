@@ -807,6 +807,10 @@ footer span a:hover {
     margin-left: 8%;
      grid-template-columns: repeat(2, 1fr);
    }
+   .project .carousel .card {
+    
+    height: 750px;
+  }
   .contact .right form .fields {
     flex-direction: column;
   }
