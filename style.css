@@ -757,7 +757,7 @@ footer span a:hover {
   }
   .skills .skills-content .column {
    margin-left: 8%;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   .text{
     margin-top: 2%;
@@ -786,6 +786,10 @@ footer span a:hover {
   .contact .title::after {
     margin-top: 2%;
   }
+  .skills .skills-content .column {
+    margin-left: 8%;
+     grid-template-columns: repeat(3, 1fr);
+   }
 }
 
 @media (max-width: 500px) {
@@ -799,6 +803,10 @@ footer span a:hover {
   .skills .skills-content .left .text {
     font-size: 19px;
   }
+  .skills .skills-content .column {
+    margin-left: 8%;
+     grid-template-columns: repeat(2, 1fr);
+   }
   .contact .right form .fields {
     flex-direction: column;
   }
