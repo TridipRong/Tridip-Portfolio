@@ -753,6 +753,9 @@ footer span a:hover {
   .text{
     margin-top: 2%;
   }
+  .contact .title::after {
+    margin-top: 2%;
+  }
 }
 
 @media (max-width: 690px) {
