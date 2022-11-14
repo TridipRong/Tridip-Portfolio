@@ -135,7 +135,7 @@ section .title::after {
 .menu:hover li a{
   transform:scale(1.5);
   opacity:.2;
-  filter:blur(5px);
+  filter:blur(2px);
 }
 .navbar.sticky .menu li a:hover {
   color: #fff;
