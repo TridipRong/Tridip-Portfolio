@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tridip Rong | Portfolio </title>
-    <link rel="icon" type="image/x-icon" href="images/Tridip.jpg">
+    <link rel="icon" type="image/x-icon" href="/images/TR (2).png">
     <link rel="stylesheet" href="style.css">
 
     <script src="https://kit.fontawesome.com/7e4208235c.js" crossorigin="anonymous"></script>
@@ -18,17 +18,45 @@
     <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-<!-- Hotjar Tracking Code for https://tridip-rong-portfolio.netlify.app/ -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:3284960,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+    <!-- Hotjar Tracking Code for https://tridip-rong-portfolio.netlify.app/ -->
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+            h._hjSettings = { hjid: 3284960, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+
+    <!-- Email Service -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('MkrOI2PNict7WirsI');
+        })();
+    </script>
+
+    <script type="text/javascript">
+        window.onload = function () {
+            document.getElementById('contact-form').addEventListener('submit', function (event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('contact_service', 'contact_form', this)
+                    .then(function () {
+                        console.log('SUCCESS!');
+                    }, function (error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+
+    <!-- End of email Service -->
 </head>
 
 <body>
@@ -348,8 +376,27 @@
                         </div>
 
 
+                    </div>
+                    <!-- Email form section starts -->
+                    <div id="email_div">
+
+                        <form id="formm">
+                            <div>
+                                <input required id="sender_name" type="text" placeholder="Enter Your Name">
+                                <input required id="sender_email" type="email" placeholder="Enter Your Email">
+                            </div>
+                            <input required id="subject" type="text" placeholder="subject">
+                            <textarea required name="" id="msg" cols="30" rows="13"
+                                placeholder="Type Your Message Here"></textarea>
+                            <!-- <input id="msg" type="text" placeholder="message">  -->
+                            <button id="email_btn" onclick="sendmail();reset(); return false;"> Send Message </button>
+                        </form>
+
 
                     </div>
+
+                    <!-- Email form section ends -->
+
                 </div>
                 <div class="column right">
                     <img id="ui" src="images/UI Developer.gif" alt="">
@@ -364,6 +411,7 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 
 </html>
