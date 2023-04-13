@@ -72,19 +72,19 @@ $(document).ready(function () {
   });
 });
 
-
 // Email
 
-
-function sendmail(){
-  var params={
-    from_subject:document.getElementById("subject").value,
-    form_name:document.getElementById("sender_name").value,
-    email_id:document.getElementById("sender_email").value,
-    message:document.getElementById("msg").value
-  }
-  emailjs.send("service_7sgfm6e","template_jaqttal",params).then(function(res){
-    alert("Success! "+ res.status)
-  })
+function sendmail() {
+  var params = {
+    from_subject: document.getElementById("subject").value,
+    form_name: document.getElementById("sender_name").value,
+    email_id: document.getElementById("sender_email").value,
+    message: document.getElementById("msg").value,
+  };
+  emailjs
+    .send("service_7sgfm6e", "template_jaqttal", params)
+    .then(function (res) {
+      alert("Success! " + res.status);
+    });
+  document.getElementById("formm").reset();
 }
-
