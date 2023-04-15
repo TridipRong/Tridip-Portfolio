@@ -82,14 +82,29 @@
 
     <!-- home section start -->
     <section class="home" id="home">
-        <div class="max-width">
+        <div class="max-width"></div>
+        <div id="newhome">
             <div class="home-content">
-                <div class="text-1">Hello, my name is</div>
-                <div class="text-2">Tridip Rong</div>
-                <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="/images/Tridip_Rong_Resume_.pdf" download="">Resume</a>
+                <span id="text1"></span>
+                <span id="text2"></span>
+            </div>
+            <div id="resume">
+                <button id="resume-btn"><i class="fa fa-file-pdf-o"
+                        style="font-size:25px;color:rgba(255, 255, 255, 0.856)"></i> Resume</button>
             </div>
         </div>
+        </div>
+        <svg id="filters">
+            <defs>
+                <filter id="threshold">
+                    <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+        									0 1 0 0 0
+        									0 0 1 0 0
+        									0 0 0 255 -140" />
+                </filter>
+            </defs>
+        </svg>
+
     </section>
 
     <!-- about section start -->
