@@ -79,10 +79,12 @@ const elts = {
 
 const texts = [
   "Hi..",
-  "My Name Is",
+  "My Name",
+  "Is",
   "Tridip Rong",
   "I'm a",
-  "Java Back-End Developer",
+  "Java Back-End",
+  "Developer",
   "Coder",
   ":)",
 ];

@@ -69,7 +69,7 @@
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#education" class="menu-btn">Skills</a></li>
+                <li><a href="#education" class="menu-btn">Education</a></li>
                 <li><a href="#skills" class="menu-btn">Tech Stacks</a></li>
                 <li><a href="#project" class="menu-btn">Projects</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
@@ -82,28 +82,28 @@
 
     <!-- home section start -->
     <section class="home" id="home">
-        <div class="max-width"></div>
-        <div id="newhome">
-            <div class="home-content">
-                <span id="text1"></span>
-                <span id="text2"></span>
-            </div>
+        <div class="newhome">
+            <main class="container">
+                <p>Hello 👋 I'm</p>
+                <section class="animation">
+                    <div class="first">
+                        <div>Tridip Rong</div>
+                    </div>
+                    <div class="second">
+                        <div>Backend Developer</div>
+                    </div>
+                    <div class="third">
+                        <div>Quick Learner</div>
+                    </div>
+                </section>
+            </main>
+
             <div id="resume">
                 <button id="resume-btn"><i class="fa fa-file-pdf-o"
-                        style="font-size:25px;color:rgba(255, 255, 255, 0.856)"></i> Resume</button>
+                        style="font-size:25px;color:rgba(255, 255, 255, 0.856)"></i>
+                    Resume</button>
             </div>
         </div>
-        </div>
-        <svg id="filters">
-            <defs>
-                <filter id="threshold">
-                    <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
-        									0 1 0 0 0
-        									0 0 1 0 0
-        									0 0 0 255 -140" />
-                </filter>
-            </defs>
-        </svg>
 
     </section>
 
@@ -113,20 +113,32 @@
             <h2 class="title">About me</h2>
             <div class="about-content">
                 <div class="column right">
-                    <div class="text">I'm Tridip and I'm a <span class="typing-2"></span></div>
-                    <p>I am a passionate and dedicated developer who is eager to learn and grow in the
-                        field of software
-                        development. I
-                        recently completed my [Degree/Diploma/Certification] in Computer Science and have experience
-                        working on several
-                        projects using Java and related technologies.</p>
-                    <p>During my [Degree/Diploma/Certification], I was involved in several projects where I
-                        developed
-                        Java-based web
-                        applications using popular frameworks such as Spring and Hibernate. These projects allowed me to
-                        gain valuable
-                        experience in software development, as well as develop skills in project management,
-                        problem-solving, and teamwork.
+                    <div class="text">Hello,</div>
+                    <p>My name is Tridip and I am an enthusiastic Java Developer with a passion for learning and growing
+                        in the field of
+                        software development. I have recently completed my B.Tech in Computer Science and have also
+                        undertaken a web development
+                        course. Through these experiences, I have gained valuable skills and knowledge in developing web
+                        applications using Java
+                        and related technologies.</p>
+                    <p>During my course, I had the opportunity to work on various projects using popular frameworks such
+                        as Spring-Boot and
+                        Hibernate. These projects have enabled me to develop my project management, problem-solving, and
+                        teamwork skills, which
+                        are essential for success in the software development industry.
+                    </p>
+                    <p>Furthermore, I completed a two-month internship where I had the chance to work on real-world
+                        projects and gain valuable
+                        industry experience. During this internship, I learned new tech stacks and soft skills and had
+                        exposure to unit testing,
+                        JavaDoc, AWS server, and other aspects of software development.
+                    </p>
+                    <p>
+                        Overall, I am dedicated to honing my skills and continuously improving as a developer. I am
+                        confident that my knowledge
+                        and experience in Java development, combined with my passion for learning, will allow me to
+                        excel in any software
+                        development role.
                     </p>
                 </div>
                 <div class="column left">
@@ -144,30 +156,34 @@
             <div class="serv-content">
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-paint-brush"></i>
-                        <div class="text">Web Design Proficient in providing web designs</div>
-                        <p>Proficient in providing web designs.</p>
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <div class="text">Web Development Course</div>
+                        <p>Masai School | Full -Time</p>
+                        <p>02-2022 – 09-2022</p>
                     </div>
                 </div>
 
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-chart-line"></i>
-                        <div class="text">REST API</div>
-                        <p>Providing exceptional Rest APIs.</p>
+                        <i class="fas fa-graduation-cap"></i>
+                        <div class="text">Bachelor's Degree in Computer Science</div>
+                        <p>St. Mary's Technical Campus Kolkata</p>
+                        <p>08-2018 – 07-2022 |</p>
                     </div>
                 </div>
+
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Data Structures</div>
-                        <p>Proficient in Data structures</p>
+                        <i class="fas fa-school"></i>
+                        <div class="text">Higher Secondary</div>
+                        <p>Garh Bhawanipur R.P Institution</p>
+                        <p>03-2016 – 03-2018</p>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
     </section>
+
 
     <!-- skills section start -->
     <section class="skills" id="skills">
@@ -179,21 +195,6 @@
                     <div class="skills-images">
                         <img src="images/java.svg" alt="">
                     </div>
-
-                    <div class="skills-images">
-                        <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Mysql&logo=mysql&color=white&label="
-                            alt="">
-                    </div>
-
-                    <div class="skills-images">
-                        <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Hibernate&logo=hibernate&color=000030&label="
-                            alt="">
-                    </div>
-
-                    <div class="skills-images">
-                        <img src="https://img.shields.io/static/v1?style=for-the-badge&message=JDBC&logo=jdbc&color=400030&label="
-                            alt="">
-                    </div>
                     <div class="skills-images">
                         <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Spring&logo=spring&color=white&label="
                             alt="">
@@ -202,11 +203,50 @@
                         <img src="https://img.shields.io/static/v1?style=for-the-badge&message=SpringBoot&logo=springboot&color=white&label="
                             alt="">
                     </div>
+                    <div class="skills-images">
+                        <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white"
+                            alt="Skill" />
+                    </div>
+                    <div class="skills-images"><img
+                            src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=spring&logoColor=white"
+                            alt="Skill" />
+                    </div>
+                    <div class="skills-images">
+                        <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Hibernate&logo=hibernate&color=000030&label="
+                            alt="">
+                    </div>
+                    <div class="skills-images"><img
+                            src="https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white"
+                            alt="Skill" />
+                    </div>
+                    <div class="skills-images"><img
+                            src="https://img.shields.io/badge/JSON%20Web%20Token-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"
+                            alt="Skill" />
+                    </div>
+
+                    <div class="skills-images"><img
+                            src="https://img.shields.io/badge/Mockito-DC382D?style=for-the-badge&logo=mockito&logoColor=white"
+                            alt="Skill" /></div>
+                    <div class="skills-images"><img
+                            src="https://img.shields.io/badge/JavaDoc-007396?style=for-the-badge&logo=java&logoColor=white"
+                            alt="Skill" />
+                    </div>
+                    <div class="skills-images"><img
+                            src="https://img.shields.io/badge/JPA-007396?style=for-the-badge&logo=java&logoColor=white"
+                            alt="Skill" />
+                    </div>
 
                     <div class="skills-images">
                         <img src="https://img.shields.io/static/v1?style=for-the-badge&message=AWS&logo=amazon&color=white&label="
                             alt="">
                     </div>
+                    <div class="skills-images"><img
+                            src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"
+                            alt="Skill" />
+                    </div>
+                    <div class="skills-images"><img
+                            src="https://img.shields.io/badge/SMTP-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"
+                            alt="Skill" /></div>
                     <div class="skills-images"><img
                             src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
                             alt="Skill" /></div>
@@ -227,6 +267,15 @@
                             alt="Skill" /></div>
                     <div class="skills-images"><img
                             src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
+                            alt="Skill" /></div>
+                    <div class="skills-images"><img
+                            src="https://img.shields.io/badge/TortoiseGit-FF1493?style=for-the-badge&logo=TortoiseGit&logoColor=white"
+                            alt="Skill" /></div>
+                    <div class="skills-images"><img
+                            src="https://img.shields.io/badge/Spring_Tool_Suite-6DB33F?style=for-the-badge&logo=SpringToolSuite&logoColor=white"
+                            alt="Skill" /></div>
+                    <div class="skills-images"><img
+                            src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=IntelliJIDEA&logoColor=white"
                             alt="Skill" /></div>
                 </div>
 
@@ -249,139 +298,140 @@
         </script>
 
     </section>
-    <section id="gitstatus">
+    <!-- <section id="gitstatus">
         <div id="gitHead">
             <h1>GitHub Stats & Current Strek</h1>
         </div>
         <div id="git-box">
-            <div>
-                <img src="https://github-readme-stats.vercel.app/api?username=TridipRong&show_icons=true&theme=radical"
-                    alt="GitHub Stats" />
+            <div class="stst">
+                <img src="https://github-readme-stats.vercel.app/api?username=TridipRong" alt="GitHub Stats" />
             </div>
-            <div>
+            <div class="stst">
                 <a href="https://git.io/streak-stats">
-                    <img src="https://github-readme-streak-stats.herokuapp.com?user=TridipRong&theme=dark"
-                        alt="GitHub Streak" />
+                    <img src="https://github-readme-streak-stats.herokuapp.com?user=TridipRong" alt="GitHub Streak" />
                 </a>
             </div>
         </div>
 
-    </section>
+    </section> -->
     <!-- project section start -->
     <section class="project" id="project">
         <div class="max-width">
             <h2 class="title">Projects</h2>
-            <div class="carousel owl-carousel">
-                <div class="card">
-                    <div class="box">
-                        <img src="images/Trip Planner Responsive.png" alt="">
-                        <div class="text">Trip Management System</div>
-                        <p>Developed this REST API for an Online Trip Management System. This REST API performs all the
-                            fundamental CRUD operations of any Trip Management Application platform with user validation
-                            at every step. This a collaborative project build by a team of 5 members and we completed
-                            the project within 5 days.</p>
-                        <br>
-                        <p>Tech Stack: Java
-                            Spring Framework
-                            Spring Boot
-                            Spring Data JPA
-                            Hibernate
-                            MySQL
-                            PostMan
-                            Swagger
-                            Lombok</p>
+            <div class="carousel-wrapper">
+                <div class="carousel">
+                    <div class="card">
+                        <div class="box">
+                            <img src="images/Trip Planner Responsive.png" alt="">
+                            <div class="text">Trip Management System</div>
+                            <p>This REST API was developed for an online Trip Management System, and allows users to
+                                perform
+                                all the fundamental CRUD operations with user validation at every step. The project was
+                                completed
+                                collaboratively by a team of 5 members within a timeframe of 5 days.</p>
+                            <br>
+                            <p>Tech Stack: Java
+                                | Spring Boot
+                                | Spring Data JPA
+                                | Hibernate
+                                | MySQL</p>
+                        </div>
+                        <div class="repo-links">
+                            <div class="repo-div">
+                                <span> <a href="https://github.com/TridipRong/Online_Trip_Management_System"
+                                        target="_blank"><i class="fa-brands fa-github"></i> Git Repo
+                                    </a></span>
+                            </div>
+                            <div class="demo-div">
+                                <span> <a href="https://drive.google.com/file/d/1IalLBgXyWEFi_zwu6-NELrzRPmx_hIM5/view"
+                                        target="_blank"><i class="fa-solid fa-eye"></i> Live Site
+                                    </a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <img src="images/BangGood.jpeg" alt="">
+                            <div class="text">BangGood clone</div>
+                            <p>Clone of BangGood.com which is an electronic goods & gadgets ecommerce website with a
+                                worldwide reach in terms
+                                of delivery.Worked on the cart page, Checkout page and Payment page.
+                                Collaborative project of 6 members </p>
+                            <br>
+                            <p>Tech Stack: HTML | CSS | javascript</p>
+                        </div>
+                        <div class="repo-links">
+                            <div class="repo-div">
+                                <span> <a href="https://github.com/TridipRong/Banggood.com-Clone" target="_blank"><i
+                                            class="fa-brands fa-github"></i> Git Repo
+                                    </a></span>
+                            </div>
+                            <div class="demo-div">
+                                <span> <a href="https://fancy-starburst-42d040.netlify.app/" target="_blank"> <i
+                                            class="fa-solid fa-eye"></i> Live Site
+                                    </a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <img src="images/Fabbag.jpeg" alt="">
+                            <div class="text">FabBag.com Clone</div>
+                            <p>Clone of FabBag.com which is one of the best destination for premium beauty, delivering
+                                the
+                                latest in innovative clinical skincare and luxury spa products.Worked on the login page,
+                                Checkout page.
+                                Collaborative project of 5 members </p>
+                            <br>
+                            <p>Tech Stack: HTML | CSS | javascript</p>
+                        </div>
+                        <div class="repo-links">
+                            <div class="repo-div">
+                                <span> <a href="https://github.com/TridipRong/fabbag-clone.com" target="_blank"> <i
+                                            class="fa-brands fa-github"></i> Git
+                                        Repo </a></span>
+                            </div>
+                            <div class="demo-div">
+                                <span> <a href="https://fabbag-clone-u2.netlify.app/" target="_blank"><i
+                                            class="fa-solid fa-eye"></i>
+                                        Live Site
+                                    </a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <img src="https://user-images.githubusercontent.com/92457968/224603296-4222dc3a-f13d-4ccf-9e8a-c680cbfb5029.png"
+                                alt="">
+                            <div class="text">Masai School LMS Clone</div>
+                            <p>This is the Masai Build and Earn Project. We will builld the rest apis for the Masai
+                                School LMS ,for this we are using java,Springboot,Mysql,spring security ,hibernet,mvc we
+                                learnt a lot of new things about team work, proper coordination and thinking along with
+                                all the team members.😊 </p>
 
-                    </div>
-                    <div class="repo-links">
-                        <div class="repo-div">
-                            <span> <a href="https://github.com/TridipRong/Online_Trip_Management_System"
-                                    target="_blank"><i class="fa-brands fa-github"></i> Git Repo
-                                </a></span>
-                        </div>
-                        <div class="demo-div">
-                            <span> <a href="https://drive.google.com/file/d/1IalLBgXyWEFi_zwu6-NELrzRPmx_hIM5/view"
-                                    target="_blank"><i class="fa-solid fa-eye"></i> Live Site
-                                </a></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/BangGood.jpeg" alt="">
-                        <div class="text">BangGood clone</div>
-                        <p>Clone of BangGood.com which is an electronic goods & gadgets ecommerce website with a
-                            worldwide reach in terms
-                            of delivery.Worked on the cart page, Checkout page and Payment page.
-                            Collaborative project of 6 members </p>
-                        <br>
-                        <p>Tech Stack: HTML | CSS | javascript</p>
-                    </div>
-                    <div class="repo-links">
-                        <div class="repo-div">
-                            <span> <a href="https://github.com/TridipRong/Banggood.com-Clone" target="_blank"><i
-                                        class="fa-brands fa-github"></i> Git Repo
-                                </a></span>
-                        </div>
-                        <div class="demo-div">
-                            <span> <a href="https://fancy-starburst-42d040.netlify.app/" target="_blank"> <i
-                                        class="fa-solid fa-eye"></i> Live Site
-                                </a></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/Fabbag.jpeg" alt="">
-                        <div class="text">FabBag.com Clone</div>
-                        <p>Clone of FabBag.com which is one of the best destination for premium beauty, delivering the
-                            latest in innovative clinical skincare and luxury spa products.Worked on the login page,
-                            Checkout page.
-                            Collaborative project of 5 members </p>
+                            <br>
+                            <p>Java
+                                | Spring Boot
+                                | Spring Data JPA
+                                | Hibernate
+                                | MySQL
+                                | Meven
+                                | Spring security
+                                | SMTP server
+                                | AWS(Ubuntu server)</p>
 
-                        <br>
-                        <p>Tech Stack: HTML | CSS | javascript</p>
-
-                    </div>
-                    <div class="repo-links">
-                        <div class="repo-div">
-                            <span> <a href="https://github.com/TridipRong/fabbag-clone.com" target="_blank"> <i
-                                        class="fa-brands fa-github"></i> Git
-                                    Repo </a></span>
                         </div>
-                        <div class="demo-div">
-                            <span> <a href="https://fabbag-clone-u2.netlify.app/" target="_blank"><i
-                                        class="fa-solid fa-eye"></i> Live Site
-                                </a></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/Fabbag.jpeg" alt="">
-                        <div class="text">Masai School LMS Clone</div>
-                        <p>Clone of Masai School LMS which is
-
-                            Collaborative project of 5 members </p>
-
-                        <br>
-                        <p>Java
-                            Spring Framework
-                            Spring Boot
-                            Spring Data JPA
-                            Hibernate
-                            MySQL
-                            PostMan</p>
-
-                    </div>
-                    <div class="repo-links">
-                        <div class="repo-div">
-                            <span> <a href="https://github.com/TridipRong/" target="_blank"> <i
-                                        class="fa-brands fa-github"></i> Git
-                                    Repo </a></span>
-                        </div>
-                        <div class="demo-div">
-                            <span> <a href="#" target="_blank"><i class="fa-solid fa-eye"></i> Live Site
-                                </a></span>
+                        <div class="repo-links">
+                            <div class="repo-div">
+                                <span> <a href="https://github.com/TridipRong/Masai-School_LMS-Clone.git"
+                                        target="_blank"> <i class="fa-brands fa-github"></i> Git
+                                        Repo </a></span>
+                            </div>
+                            <div class="demo-div">
+                                <span> <a href="https://learning-management-system-masai.netlify.app/login"
+                                        target="_blank"><i class="fa-solid fa-eye"></i> Live Site
+                                    </a></span>
+                            </div>
                         </div>
                     </div>
                 </div>

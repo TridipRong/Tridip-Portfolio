@@ -1,6 +1,6 @@
 /*  import google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:700");
 * {
   margin: 0;
   padding: 0;
@@ -100,7 +100,7 @@ section .title::after {
 }
 .navbar.sticky {
   padding: 15px 0;
-  background: #b2a4ff;
+  background: #5379eb;
 }
 .navbar .max-width {
   display: flex;
@@ -113,7 +113,7 @@ section .title::after {
   font-weight: 600;
 }
 .navbar .logo a span {
-  color: #b2a4ff;
+  color: #5379eb;
   transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span {
@@ -157,7 +157,7 @@ section .title::after {
   position: fixed;
   height: 45px;
   width: 42px;
-  background: #3c486b;
+  background: #5379eb;
   right: 30px;
   bottom: 10px;
   text-align: center;
@@ -186,38 +186,96 @@ section .title::after {
   display: flex;
   background: url("images/wallhaven-75226.jpg") no-repeat center;
   background-color: #111;
-  height: 70vh;
+  height: 50vh;
+  width: 100%;
   color: rgb(243, 243, 243);
   min-height: 500px;
   background-size: cover;
   background-attachment: fixed;
   font-family: "Ubuntu", sans-serif;
 }
-.home-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+/* body {
+  font-family: "Roboto";
+  background-color: #131417;
+} */
+.container p {
+  text-shadow: 0 0 7px rgba(236, 228, 228, 0.3),
+    0 0 3px rgba(245, 235, 235, 0.3);
+  color: rgb(238, 158, 9);
+}
+.container {
+  color: #e5e5e5;
+  font-size: 2.26rem;
+  text-transform: uppercase;
   height: 60%;
-  color: red;
-  margin: auto;
-  filter: url(#threshold) blur(0.6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#text1,
-#text2 {
-  position: absolute;
-  width: 100%;
-  display: inline-block;
-  color: red;
-  font-family: "Raleway", sans-serif;
-  font-size: 4rem;
-  text-align: center;
+.animation {
+  height: 50px;
+  overflow: hidden;
+  margin-left: 1rem;
+}
 
-  user-select: none;
+.animation > div > div {
+  padding: 0.25rem 0.75rem;
+  height: 2.81rem;
+  margin-bottom: 2.81rem;
+  display: inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 8s infinite;
+}
+
+.first div {
+  background-color: #20a7d8;
+}
+.second div {
+  background-color: #cd921e;
+}
+.third div {
+  background-color: #c10528;
+}
+
+@keyframes text-animation {
+  0% {
+    margin-top: 0;
+  }
+  10% {
+    margin-top: 0;
+  }
+  20% {
+    margin-top: -5.62rem;
+  }
+  30% {
+    margin-top: -5.62rem;
+  }
+  40% {
+    margin-top: -11.24rem;
+  }
+  60% {
+    margin-top: -11.24rem;
+  }
+  70% {
+    margin-top: -5.62rem;
+  }
+  80% {
+    margin-top: -5.62rem;
+  }
+  90% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: 0;
+  }
 }
 
 /* resume button */
+
 #resume-btn {
   background-color: #4caf50; /* Green */
   border: none;
@@ -263,7 +321,7 @@ section .title::after {
   margin-bottom: 10px;
 }
 .about .about-content .right .text span {
-  color: #b2a4ff;
+  color: #5379eb;
 }
 .about .about-content .right p {
   text-align: justify;
@@ -289,7 +347,7 @@ section .title::after {
   height: 35px;
   width: 35px;
   border-radius: 50%;
-  background-color: #b2a4ff;
+  background-color: #5379eb;
   display: inline-block;
   margin: 10px;
   animation: scaling 2s ease-in-out infinite;
@@ -302,7 +360,7 @@ section .title::after {
   }
   50% {
     transform: scale(1);
-    background-color: #b2a4ff;
+    background-color: #5379eb;
   }
 }
 .bubble:nth-child(0) {
@@ -340,12 +398,13 @@ section .title::after {
 
 .education .serv-content .card {
   width: calc(33% - 20px);
-  background: #b2a4ff;
+  background: #5379eb;
   text-align: center;
   border-radius: 6px;
   padding: 50px 25px;
   cursor: pointer;
   transition: all 0.3s ease;
+  height: 250px;
 }
 .education .serv-content .card:hover {
   background: #f5f3c1;
@@ -477,13 +536,24 @@ p {
 }
 
 /* project section styling */
+.carousel {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+  margin: 0 -10px;
+}
+
+.card {
+  flex: 0 0 calc(33.33% - 20px);
+  margin: 0 10px;
+}
 
 .project .title::after {
   background-color: #3c486b;
   content: "see my work";
 }
 .project .carousel .card {
-  background: #b2a4ff;
+  background: #5379eb;
   border-radius: 6px;
   padding: 25px 35px;
   text-align: center;
@@ -512,6 +582,9 @@ p {
 }
 .project .carousel .card:hover .box {
   transform: scale(1.05);
+}
+.project .carousel .card:hover .box img {
+  height: 220px;
 }
 .project .carousel .card .text {
   font-size: 25px;
@@ -624,7 +697,7 @@ p {
 }
 .contact .contact-content .row i {
   font-size: 25px;
-  color: #b2a4ff;
+  color: #5379eb;
 }
 .contact .contact-content .info .head {
   font-weight: 500;
@@ -633,7 +706,7 @@ p {
 .contact .contact-content .info a,
 .contact .contact-content .info a:link {
   text-decoration: none;
-  color: #b2a4ff;
+  color: #5379eb;
 }
 .contact .contact-content .info a:hover,
 .contact .contact-content .info p:hover {
@@ -641,7 +714,7 @@ p {
 }
 
 .contact .contact-content .info .sub-title {
-  color: #b2a4ff;
+  color: #5379eb;
 }
 .contact .right form .fields {
   display: flex;
@@ -707,7 +780,7 @@ p {
   height: auto;
   align-items: center;
   margin: auto;
-  box-shadow: #b2a4ff 0px 3px 8px;
+  box-shadow: #5379eb 0px 3px 8px;
 }
 form > div {
   width: 100%;
@@ -715,7 +788,7 @@ form > div {
   justify-content: space-between;
 }
 form > div > input {
-  background-color: #b2a4ff;
+  background-color: #a7baf1;
   border: 0.6px solid gray;
   width: 49%;
   height: 50px;
@@ -723,7 +796,7 @@ form > div > input {
 }
 
 form > #subject {
-  background-color: #b2a4ff;
+  background-color: #a7baf1;
   border: 0.6px solid gray;
   margin-top: 1%;
   display: block;
@@ -733,7 +806,7 @@ form > #subject {
   color: #020202;
 }
 form > #msg {
-  background-color: #b2a4ff;
+  background-color: #a7baf1;
   border: 0.6px solid gray;
   margin-top: 1%;
   display: block;
@@ -757,7 +830,7 @@ form > #msg {
 
 /* footer section styling */
 footer {
-  background: #b2a4ff;
+  background: #5379eb;
   padding: 15px 23px;
   color: #070707;
   text-align: center;
@@ -771,6 +844,51 @@ footer span {
 footer span a:hover {
   text-decoration: underline;
 }
+#home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Set the margin and padding of the home content */
+.home-content {
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+#newhome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+te #resume-btn {
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  /* For smaller screens */
+  #resume-btn {
+    margin-top: 70px;
+  }
+  .container {
+    font-size: 1.2rem;
+  }
+}
+
+/* #resume {
+  width: 100%;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-left: 5px;
+} */
 
 /* responsive media query start */
 @media (max-width: 1104px) {
@@ -823,16 +941,6 @@ footer span a:hover {
     margin: 20px 0;
     font-size: 25px;
   }
-  .home .home-content .text-2 {
-    font-size: 70px;
-  }
-  .home .home-content .text-3 {
-    font-size: 35px;
-  }
-  .home .home-content a {
-    font-size: 23px;
-    padding: 10px 30px;
-  }
   .max-width {
     max-width: 930px;
   }
@@ -869,24 +977,13 @@ footer span a:hover {
   #home {
     flex-direction: row;
   }
-  #resume {
-    margin-top: 150px;
-  }
 }
 
 @media (max-width: 690px) {
   .max-width {
     padding: 0 23px;
   }
-  .home .home-content .text-2 {
-    font-size: 60px;
-  }
-  .home .home-content .text-3 {
-    font-size: 32px;
-  }
-  .home .home-content a {
-    font-size: 20px;
-  }
+
   .education .serv-content .card {
     width: 100%;
   }
@@ -897,25 +994,9 @@ footer span a:hover {
     margin-left: 8%;
     grid-template-columns: repeat(3, 1fr);
   }
-  #text1,
-  #text2 {
-    font-size: 3rem;
-  }
-  #home {
-    flex-direction: row;
-  }
-  #resume {
-    margin-top: 150px;
-  }
 }
 
 @media (max-width: 500px) {
-  .home .home-content .text-2 {
-    font-size: 50px;
-  }
-  .home .home-content .text-3 {
-    font-size: 27px;
-  }
   .about .about-content .right .text,
   .skills .skills-content .left .text {
     font-size: 19px;
@@ -923,9 +1004,6 @@ footer span a:hover {
   .skills .skills-content .column {
     margin-left: 8%;
     grid-template-columns: repeat(2, 1fr);
-  }
-  .project .carousel .card {
-    height: 750px;
   }
   .contact .right form .fields {
     flex-direction: column;
@@ -947,16 +1025,6 @@ footer span a:hover {
   }
   .contact .title::after {
     margin-top: 2%;
-  }
-  #text1,
-  #text2 {
-    font-size: 2rem;
-  }
-  #home {
-    flex-direction: row;
-  }
-  #resume {
-    margin-top: 150px;
   }
 }
 
@@ -986,79 +1054,35 @@ footer span a:hover {
   color: #f5f3c1;
   box-shadow: #3c486b 0px 4px 16px, #3c486b 0px 8px 32px;
 }
-/* #git-box {
-  display: flex;
-  justify-content: center;
-  gap: 10%;
-  margin: 90%;
-} */
-#git-box {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
 
-#git-box > div {
-  flex-basis: 45%;
-  text-align: center;
-}
-@media only screen and (max-width: 768px) {
-  #git-box {
-    flex-direction: column;
+/* For screens smaller than 768px */
+@media (max-width: 550px) {
+  .carousel {
+    flex-wrap: nowrap;
   }
 
-  #git-box .div {
-    width: 10%;
-    height: 10%;
-    margin: auto;
-  }
-  #resume-btn {
-    font-size: 14px;
-    padding: 10px 20px;
-  }
-  #text1,
-  #text2 {
-    font-size: 3rem;
-  }
-  #resume-btn {
-    font-size: 16px;
-    padding: 12px 24px;
-  }
-  #home {
-    flex-direction: row;
-  }
-  #resume {
-    margin-top: 150px;
+  .card {
+    flex: 0 0 calc(100% - 20px);
   }
 }
+@media (min-width: 551px) and (max-width: 820px) {
+  .carousel {
+    flex-wrap: nowrap;
+  }
 
-#home {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  .card {
+    flex: 0 0 calc(50% - 20px);
+  }
+  .project .carousel .card {
+    height: 900px;
+  }
 }
+@media (min-width: 821px) and (max-width: 1130px) {
+  .carousel {
+    flex-wrap: nowrap;
+  }
 
-/* Set the margin and padding of the home content */
-.home-content {
-  margin: 20px;
-  padding: 20px;
-  text-align: center;
-  width: 100%;
-}
-#newhome {
-  width: 100%;
-  max-width: 1300px;
-  padding: 0 80px;
-  margin: auto;
-}
-#resume {
-  width: 100%;
-  margin-top: 50px;
-  display: flex;
-  justify-content: center; /* horizontally center the child elements */
-  align-items: center;
-  margin-left: 5px;
+  .card {
+    flex: 0 0 calc(45% - 20px);
+  }
 }
