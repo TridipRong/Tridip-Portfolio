@@ -879,6 +879,9 @@ te #resume-btn {
   .container {
     font-size: 1.2rem;
   }
+  .education .serv-content .card {
+    height: 300px;
+  }
 }
 
 /* #resume {
