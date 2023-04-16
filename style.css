@@ -404,7 +404,7 @@ section .title::after {
   padding: 50px 25px;
   cursor: pointer;
   transition: all 0.3s ease;
-  height: 250px;
+  height: 280px;
 }
 .education .serv-content .card:hover {
   background: #f5f3c1;
