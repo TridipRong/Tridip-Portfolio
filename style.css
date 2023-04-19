@@ -578,18 +578,18 @@ p {
 .project .carousel .card .box p {
   width: 100%;
   text-align: justify;
-  height: 50%;
+  height: 40%;
 }
 .project .carousel .card:hover .box {
   transform: scale(1.05);
 }
 .project .carousel .card:hover .box img {
-  height: 220px;
+  height: 15%;
 }
 .project .carousel .card .text {
   font-size: 25px;
   font-weight: 500;
-  height: 15%;
+  height: 12%;
   margin: 10px 0 7px 0;
 }
 
