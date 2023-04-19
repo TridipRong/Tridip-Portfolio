@@ -578,10 +578,10 @@ p {
   transition: all 0.3s ease;
 }
 .project .carousel .card .box p {
-  width: 95%;
+  width: 90%;
   text-align: justify;
   text-justify: inter-word;
-  letter-spacing: -0.06em;
+  letter-spacing: -0.05em;
   height: 40%;
 }
 .project .carousel .card:hover .box {
