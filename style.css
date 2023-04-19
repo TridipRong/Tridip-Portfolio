@@ -762,7 +762,8 @@ p {
 #ui {
   width: 90%;
   height: 80%;
-  margin: auto;
+  /* margin: auto; */
+  margin-left: 4%;
 }
 /* emailo */
 
@@ -1087,5 +1088,49 @@ te #resume-btn {
 
   .card {
     flex: 0 0 calc(45% - 20px);
+  }
+}
+@media screen and (max-width: 600px) {
+  .stats {
+    max-width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+#github-stats {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 8%;
+  margin-left: 7%;
+}
+
+#gitstatus h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#github-stats img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 820px) {
+  #github-stats {
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  #gitstatus h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  #github-stats img {
+    max-width: 85%;
+    margin: 2% auto;
+    display: block;
   }
 }

@@ -176,21 +176,13 @@ function sendmail() {
   document.getElementById("formm").reset();
 }
 // resume button
-document.getElementById("resume-btn").addEventListener("click", function () {
-  // Replace 'resume.pdf' with the name of your resume file
-  var fileUrl = "/images/Tridip_Rong_Resume_.pdf";
+function downloadResume(fileUrl) {
+  var link = document.createElement("a");
+  link.href = fileUrl;
+  link.download = "resume.pdf";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
 
-  // Download the file
-  var a = document.createElement("a");
-  a.href = fileUrl;
-  a.download = fileUrl.split("/").pop();
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-
-  // Open the Google Drive link in a new window/tab
-  window.open(
-    "https://drive.google.com/file/d/10lxA17GoED_pAOCwvu6YxyUdUDzWch27/view",
-    "_blank"
-  );
-});
+//git stats
