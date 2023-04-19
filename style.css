@@ -326,7 +326,8 @@ section .title::after {
 .about .about-content .right p {
   text-align: justify;
   text-justify: inter-word;
-  letter-spacing: -0.05em;
+  word-break: break-word;
+  hyphens: auto;
   color: #f5f3c1;
 }
 .about .about-content .right a {
@@ -578,15 +579,17 @@ p {
   transition: all 0.3s ease;
 }
 .project .carousel .card .box p {
-  width: 90%;
+  width: 100%;
   text-align: justify;
   text-justify: inter-word;
-  letter-spacing: -0.05em;
+  word-break: break-word;
+  hyphens: auto;
   height: 40%;
 }
 .project .carousel .card:hover .box {
   transform: scale(1.05);
 }
+
 .project .carousel .card:hover .box img {
   height: 15%;
 }
@@ -633,10 +636,9 @@ p {
   color: rgb(17, 19, 18);
 }
 .project .carousel .card img {
-  height: 29%;
+  height: 120px;
   width: 95%;
-  margin-top: 10%;
-
+  margin-top: 25px;
   object-fit: cover;
   border-radius: 5%;
   border: 5px solid#f5f3c1;
@@ -1124,8 +1126,8 @@ te #resume-btn {
 
 @media screen and (max-width: 820px) {
   #github-stats {
-    padding: 10px;
     flex-direction: column;
+    width: 100%;
   }
 
   #gitstatus h1 {
@@ -1134,8 +1136,9 @@ te #resume-btn {
   }
 
   #github-stats img {
-    max-width: 85%;
-    margin: 2% auto;
+    max-width: 100%;
+    margin: 2%;
     display: block;
+    margin-left: -9%;
   }
 }
