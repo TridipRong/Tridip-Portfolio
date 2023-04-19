@@ -325,6 +325,8 @@ section .title::after {
 }
 .about .about-content .right p {
   text-align: justify;
+  text-justify: inter-word;
+  letter-spacing: -0.05em;
   color: #f5f3c1;
 }
 .about .about-content .right a {
@@ -576,8 +578,10 @@ p {
   transition: all 0.3s ease;
 }
 .project .carousel .card .box p {
-  width: 100%;
+  width: 95%;
   text-align: justify;
+  text-justify: inter-word;
+  letter-spacing: -0.06em;
   height: 40%;
 }
 .project .carousel .card:hover .box {
@@ -789,15 +793,16 @@ form > div {
   justify-content: space-between;
 }
 form > div > input {
-  background-color: #a7baf1;
+  background-color: #ced7f5;
   border: 0.6px solid gray;
   width: 49%;
   height: 50px;
   padding-left: 2%;
+  color: #020202;
 }
 
 form > #subject {
-  background-color: #a7baf1;
+  background-color: #ced7f5;
   border: 0.6px solid gray;
   margin-top: 1%;
   display: block;
@@ -807,7 +812,7 @@ form > #subject {
   color: #020202;
 }
 form > #msg {
-  background-color: #a7baf1;
+  background-color: #ced7f5;
   border: 0.6px solid gray;
   margin-top: 1%;
   display: block;
