@@ -42,6 +42,7 @@ p {
 
 .about,
 .education,
+.experience,
 .skills,
 .project,
 .contact,
@@ -50,6 +51,7 @@ footer {
 }
 .about .about-content,
 .education .serv-content,
+.experience .serv-content,
 .skills .skills-content,
 .contact .contact-content {
   display: flex;
@@ -394,6 +396,11 @@ section .title::after {
   background: #3c486b;
   margin-top: -100px;
 }
+.experience {
+  color: #f5f3c1;
+  background: #3c486b;
+  margin-top: -100px;
+}
 .project {
   color: #f5f3c1;
   background: #3c486b;
@@ -410,7 +417,7 @@ section .title::after {
   height: 280px;
 }
 .education .serv-content .card:hover {
-  background: #f5f3c1;
+  background: #02b497;
 }
 .education .serv-content .card .box {
   transition: all 0.3s ease;
@@ -436,6 +443,50 @@ p {
   margin: 10px 0 7px 0;
 }
 
+/* experience section styling */
+.experience {
+  color: #f5f3c1;
+  background: #3c486b;
+  margin-top: -100px;
+}
+
+.experience .serv-content .card {
+  width: calc(33% - 20px);
+  background: #5379eb;
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  height: 280px;
+}
+.experience .serv-content .card:hover {
+  background: #02b497;
+}
+.experience .serv-content .card .box {
+  transition: all 0.3s ease;
+}
+.experience .serv-content .card:hover .box {
+  transform: scale(1.05);
+}
+.experience .serv-content .card i {
+  font-size: 50px;
+  color: #f7ebeb;
+  transition: color 0.3s ease;
+}
+.experience .serv-content .card:hover i {
+  color: #050505;
+}
+.experience .serv-content .card:hover div,
+p {
+  color: #020202;
+}
+.experience .serv-content .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
 /* skills section styling */
 
 .skills-images img {
@@ -455,6 +506,17 @@ p {
   content: "what i know";
   background: #3c486b;
 }
+
+/* skills hiver */
+.skills-images img {
+  transition: transform 0.2s easeout, box-shadow 0.2s ease-in-out;
+}
+
+.skills-images img:hover {
+  transform: scale(1.15); /* Increase scale for a slight zoom effect on hover */
+  box-shadow: 2px 7px 10px rgba(3, 255, 242, 0.973); /* Adjust shadow values as needed */
+}
+
 
 /* skills right column */
 .skills {
